@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,10 +36,20 @@
   to {
     transform: rotate(360deg);
   }
-  img {
+  
+  
+}
+img {
     background-color: rgb(99, 16, 129);
-    display: block;
+    display:block;
     margin: 0 auto;
-    width: 25%;
+    width: 45%;
   }
+.error-output{
+  color: rgb(2, 2, 2);
+  margin-left: 10px;
+  font-size: 12px;
+  font-style: italic;
+  background-color: red;
+  
 }
