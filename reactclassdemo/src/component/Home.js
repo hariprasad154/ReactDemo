@@ -3,7 +3,6 @@ import logo from '../Styles/bridgelabslogo.png';
 import React ,{Component} from "react";
 
 class Home extends Component{
-
   url='https://www.reactjs.com/'
   constructor(){
   super()
@@ -39,7 +38,7 @@ class Home extends Component{
     alt="The bridgeLab logo :a bridge to Employee"/>
   </div>
   <div>
-    <input className="nameInput" onChange={this.onNameChange}/>
+    <input tyoe="text" name="Name"className="nameInput" placeholder="Enter u r Name" onChange={this.onNameChange}/>
     <span className="error-output">{this.state.nameError}</span>
   </div>
   <div>
